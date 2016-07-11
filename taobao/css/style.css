@@ -1,0 +1,461 @@
+@charset "UTF-8";
+.main {
+  width: 100%;
+  min-width: 1100px; }
+
+.logo {
+  width: 100%;
+  min-width: 1350px;
+  height: 120px; }
+
+.logo_pic {
+  width: 153px;
+  margin-left: 20%;
+  display: inline;
+  float: left;
+  margin-top: 20px; }
+  .logo_pic p {
+    font-size: 12px;
+    color: #ff5757;
+    text-align: center;
+    background-image: url("../images/logo_background.png");
+    background-repeat: no-repeat;
+    background-position: 5px 10px; }
+
+.logo_youhuijuan {
+  width: 545px;
+  margin-right: 10%;
+  display: inline;
+  float: right;
+  margin-top: 20px;
+  position: relative; }
+  .logo_youhuijuan ul li {
+    float: left;
+    width: 75px;
+    height: 85px;
+    border: 1px solid #ff5757;
+    margin-right: 5px;
+    color: #ff5757;
+    position: relative; }
+    .logo_youhuijuan ul li .logo_price {
+      font-size: 10px;
+      color: #ff5757; }
+    .logo_youhuijuan ul li span {
+      font-size: 40px;
+      font-weight: bold;
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 10px; }
+    .logo_youhuijuan ul li .logo_youhui_style {
+      font-size: 10px;
+      color: #ff5757;
+      position: absolute;
+      left: 7px;
+      top: 45px; }
+    .logo_youhuijuan ul li .logo_youhui_use {
+      color: #fff;
+      display: block;
+      width: 60px;
+      position: absolute;
+      text-align: center;
+      top: 64px;
+      left: 7px;
+      background-image: url("../images/logo_yuanjiao.png");
+      background-repeat: no-repeat;
+      background-size: 60px 20px;
+      background-position: 0px 0px; }
+  .logo_youhuijuan ul .logo_list1 span {
+    left: 23px; }
+
+.logo_search {
+  position: absolute;
+  position: absolute;
+  left: 340px;
+  top: 20px; }
+  .logo_search .logo_shoucang {
+    font-size: 20px;
+    color: #ff5757;
+    font-weight: bold; }
+    .logo_search .logo_shoucang span {
+      margin-left: 5px;
+      font-weight: normal; }
+  .logo_search .logo_search_content {
+    position: relative; }
+    .logo_search .logo_search_content input {
+      width: 200px;
+      height: 21px;
+      border: 1px solid #ff5757; }
+    .logo_search .logo_search_content .search_go {
+      display: block;
+      position: absolute;
+      left: 180px;
+      top: 0px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      background-color: #ff5757;
+      color: #fff;
+      cursor: pointer; }
+
+.logo_nav {
+  width: 100%;
+  min-width: 1350px;
+  height: 30px;
+  background-color: #ff5757; }
+
+.logo_nav_list {
+  width: 1100px;
+  margin-left: 17%;
+  font-size: 15px; }
+  .logo_nav_list li {
+    float: left;
+    margin-right: 20px;
+    line-height: 30px; }
+    .logo_nav_list li a {
+      display: block;
+      height: 30px;
+      padding: 0px 3px 0px 3px;
+      color: #fff; }
+    .logo_nav_list li a:hover {
+      display: block;
+      height: 30px;
+      padding: 0px 3px 0px 3px;
+      background-color: rgba(255, 255, 255, 0.2); }
+
+.pic_logo {
+  width: 100%;
+  height: 650px;
+  background-image: url(../images/pic_background.png);
+  position: relative; }
+
+.pic_logo_nav {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  width: 400px;
+  height: 325px;
+  padding: 10px 20px;
+  border: 1px solid #e5d99a; }
+  .pic_logo_nav .pic_summer {
+    font-size: 34px;
+    font-family: Adobe 榛戜綋;
+    color: #83b441; }
+    .pic_logo_nav .pic_summer span {
+      color: #83b441;
+      font-weight: bold; }
+  .pic_logo_nav .pic_2016 {
+    font-size: 80px;
+    color: #83b441;
+    position: absolute;
+    left: 220px;
+    top: 0px; }
+  .pic_logo_nav img {
+    width: 380px; }
+  .pic_logo_nav .pic_zhekou {
+    display: block;
+    margin-left: 20px;
+    width: 360px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff5757;
+    text-align: center;
+    line-height: 30px; }
+  .pic_logo_nav p {
+    font-size: 53px;
+    color: #83b441;
+    text-align: center; }
+
+.pic_person {
+  margin-left: 890px; }
+
+.tshirt {
+  width: 100%;
+  min-width: 1350px;
+  height: 620px;
+  background-image: url("../images/tshirt_background.png");
+  background-size: cover; }
+
+.tshirt_left {
+  width: 175px;
+  margin-left: 150px;
+  display: inline;
+  float: left;
+  margin-top: 20px; }
+  .tshirt_left ul {
+    margin-left: 20px; }
+    .tshirt_left ul li {
+      width: 130px;
+      height: 95px;
+      border: 1px solid #ffb000;
+      margin-bottom: 10px;
+      color: #ffb000;
+      position: relative; }
+      .tshirt_left ul li .logo_price {
+        font-size: 10px;
+        color: #ffb000; }
+      .tshirt_left ul li span {
+        font-size: 40px;
+        font-weight: bold;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 10px; }
+      .tshirt_left ul li .logo_youhui_style {
+        font-size: 10px;
+        color: #ffb000;
+        position: absolute;
+        left: 65px;
+        top: 15px; }
+      .tshirt_left ul li .logo_youhuijuan1 {
+        font-size: 16px;
+        color: #ffb000;
+        position: absolute;
+        left: 65px;
+        top: 35px; }
+      .tshirt_left ul li .logo_youhui_use {
+        color: #fff;
+        display: block;
+        width: 70px;
+        position: absolute;
+        text-align: center;
+        top: 64px;
+        left: 35px;
+        background-image: url("../images/tshirt_left_background.png");
+        background-repeat: no-repeat;
+        background-size: 70px 20px;
+        background-position: 0px 0px; }
+    .tshirt_left ul .logo_list1 span {
+      left: 23px; }
+
+.tshirt_right {
+  width: 700px;
+  margin-right: 310px;
+  display: inline;
+  float: right;
+  margin-top: 32px;
+  position: relative; }
+
+.tshirt_right1 {
+  width: 245px;
+  display: inline;
+  float: left; }
+  .tshirt_right1 .tshirt_right1_list {
+    margin-right: 5px; }
+    .tshirt_right1 .tshirt_right1_list li {
+      margin-bottom: 10px;
+      position: relative; }
+      .tshirt_right1 .tshirt_right1_list li img {
+        width: 245px;
+        height: 270px; }
+    .tshirt_right1 .tshirt_right1_list .list1 p {
+      position: absolute;
+      left: 145px;
+      top: 2px;
+      font-size: 23px;
+      color: #ff7a7f;
+      font-weight: bold; }
+      .tshirt_right1 .tshirt_right1_list .list1 p span {
+        font-size: 13px;
+        color: #000;
+        font-weight: normal;
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 4px; }
+    .tshirt_right1 .tshirt_right1_list .list2 p {
+      position: absolute;
+      left: 90px;
+      top: 185px;
+      font-size: 23px;
+      color: #ff7a7f;
+      font-weight: bold; }
+      .tshirt_right1 .tshirt_right1_list .list2 p span {
+        font-size: 13px;
+        color: #000;
+        font-weight: normal;
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 30px; }
+
+.tshirt_right2 {
+  width: 565px;
+  display: inline;
+  float: right;
+  margin-right: -120px; }
+  .tshirt_right2 .tshirt_right2_list li {
+    float: left;
+    position: relative; }
+    .tshirt_right2 .tshirt_right2_list li img {
+      width: 280px;
+      height: 430px; }
+  .tshirt_right2 .tshirt_right2_list .list3 p {
+    position: absolute;
+    left: 5px;
+    top: 280px;
+    font-size: 23px;
+    color: #ff7a7f;
+    font-weight: bold; }
+    .tshirt_right2 .tshirt_right2_list .list3 p span {
+      display: block;
+      padding: 5px;
+      font-size: 13px;
+      color: #fff;
+      background-color: #ff7a7f;
+      font-weight: normal;
+      display: block;
+      position: absolute;
+      top: 30px;
+      left: 15px; }
+  .tshirt_right2 .tshirt_right2_list .list4 p {
+    position: absolute;
+    left: 245px;
+    top: 170px;
+    font-size: 23px;
+    color: #ff7a7f;
+    font-weight: bold; }
+
+.tshirt_new {
+  width: 565px;
+  height: 116px;
+  background-color: #c0ecdf;
+  position: absolute;
+  bottom: 15px;
+  left: 250px;
+  text-align: center; }
+  .tshirt_new .news {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #616161; }
+  .tshirt_new .news_zhekou {
+    font-size: 30px;
+    color: #ff747d;
+    font-weight: bold; }
+  .tshirt_new .tshirt_new_pic {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 395px; }
+
+.good {
+  width: 100%;
+  min-width: 1350px;
+  height: 910px;
+  background-image: url("../images/tshirt_background.png"); }
+  .good ul {
+    margin-left: 150px; }
+    .good ul li {
+      float: left; }
+      .good ul li img {
+        width: 335px;
+        height: 450px; }
+
+.new_arrval {
+  width: 100%;
+  min-width: 1350px; }
+  .new_arrval h1 {
+    color: #7dad9f;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center; }
+  .new_arrval h2 {
+    color: #ff5757;
+    font-size: 30px;
+    text-align: center; }
+  .new_arrval h3 {
+    color: #ff5757;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center; }
+
+.new_arrval_list {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../images/new_background.png"); }
+  .new_arrval_list .new_arrval_list1 {
+    height: 414px;
+    margin-left: 150px;
+    padding-top: 20px; }
+    .new_arrval_list .new_arrval_list1 li {
+      float: left; }
+      .new_arrval_list .new_arrval_list1 li img {
+        width: 500px; }
+  .new_arrval_list .new_arrval_list2 {
+    margin-left: 150px; }
+    .new_arrval_list .new_arrval_list2 li {
+      float: left; }
+      .new_arrval_list .new_arrval_list2 li img {
+        width: 333px;
+        height: 530px; }
+
+.good_all_list {
+  width: 100%;
+  min-width: 1350px;
+  height: 1400px;
+  position: relative; }
+  .good_all_list .beijing {
+    width: 100%;
+    z-index: -10; }
+  .good_all_list .dress {
+    position: absolute;
+    top: 0px;
+    left: 620px; }
+  .good_all_list .dress1 {
+    position: absolute;
+    top: 145px;
+    left: 215px; }
+  .good_all_list ul {
+    width: 1020px;
+    height: 965px;
+    background-color: #faf7d6;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    padding: 20px; }
+    .good_all_list ul li {
+      float: left;
+      margin-right: 10px; }
+      .good_all_list ul li img {
+        width: 330px;
+        height: 450px; }
+      .good_all_list ul li .good_price {
+        width: 330px;
+        height: 30px;
+        position: relative;
+        font-size: 14px;
+        color: #000; }
+        .good_all_list ul li .good_price p {
+          font-size: 20px;
+          color: #ff5757;
+          position: absolute;
+          top: -5px;
+          left: 55px; }
+          .good_all_list ul li .good_price p span {
+            font-size: 14px; }
+        .good_all_list ul li .good_price .shoping {
+          display: block;
+          position: absolute;
+          top: 1px;
+          left: 240px;
+          padding: 2px;
+          border: 1px solid #000; }
+
+.footer {
+  width: 100%;
+  min-width: 1350px;
+  height: 650px;
+  position: relative; }
+  .footer .footer_b {
+    margin-left: 150px; }
+  .footer .footer_color {
+    width: 100%;
+    height: 235px;
+    background-color: #000;
+    position: absolute;
+    top: 415px;
+    left: 0px;
+    z-index: -100; }
+
+/*# sourceMappingURL=style.css.map */

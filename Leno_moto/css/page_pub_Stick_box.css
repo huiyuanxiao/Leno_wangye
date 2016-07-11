@@ -1,0 +1,66 @@
+@import "../reset.css";
+body{background: #f5f6f8;font-family: "microsoft yahei"}
+/*右侧顶部*/
+.page_pub_Stick_box{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 245px;
+    display:none;
+}
+.page_pub_Stick{
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
+.page_pub_Stick ol{
+    width:1120px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+.page_pub_Stick ul{
+    position: absolute;
+    width: 92px;
+    height: 118px;
+    top:0;
+    right:0;
+	z-index:999;
+}
+.page_pub_Stickone a{
+    display: inline-block;
+    height: 41px;
+    width: 36px;
+    background:url("http://img2.cdn.clubjs.lenovo.com.cn/pc3/images/page_public/page_pub_Stick/page_pub_Stick_TOP.png?version=201606300002") no-repeat;
+    background-size: 100%;
+}
+.page_pub_Sticktwo a{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background:url("http://img2.cdn.clubjs.lenovo.com.cn/pc3/images/page_public/page_pub_Stick/page_pub_Stick_FTbtn.png?version=201606300002") no-repeat;
+    background-size: 100%;
+}
+.page_pub_Sticktwo a:hover{
+    display: inline-block;
+    height: 36px;
+    width: 90px;
+    background:url("../../images/page_public/page_pub_Stick/page_pub_Stick_FT.png") no-repeat;
+    background-size: 100%;
+}
+.page_pub_Stickthree a{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background:url("http://img2.cdn.clubjs.lenovo.com.cn/pc3/images/page_public/page_pub_Stick/page_pub_Stick_appbtn.png?version=201606300002") no-repeat;
+    background-size: 100%;
+}
+.page_pub_Stickthree a:hover{
+    display: inline-block;
+    height: 36px;
+    width: 90px;
+    background:url("../../images/page_public/page_pub_Stick/page_pub_Stick_APP.png") no-repeat;
+    background-size: 100%;
+}
